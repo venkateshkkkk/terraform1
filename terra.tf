@@ -3,7 +3,7 @@ provider "aws" {
  access_key = "AKIAXNJHMXFKIIWU35GI"
  secret_key = "OMYLsNoW7VeAWDmQ8WsZV6aDXpW2hPeOmEnjwPSm"
 }
-resource "aws_instance" "example" {
+resource "aws_instance" "instances" {
  ami = "ami-01bc990364452ab3e"
  instance_type = "t2.micro"
  count = 2
